@@ -15,6 +15,10 @@
       expect(mech.name).to.equal('EXTERNAL');
     });
     
+    it('should be client first', function() {
+      expect(mech.clientFirst).to.equal(true);
+    });
+    
     it('should encode credentials', function() {
       expect(mech.response({})).to.equal('');
     });
