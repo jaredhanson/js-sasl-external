@@ -1,6 +1,6 @@
 {
   "name": "sasl-external",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JavaScript implementation of EXTERNAL SASL mechanism.",
   "keywords": ["sasl", "auth", "authn", "authentication", "security"],
   "repository": {
